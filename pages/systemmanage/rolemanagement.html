@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 2 | Advanced form elements</title>
+    <title>诚业建筑 | 劳务结算</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -79,7 +79,7 @@
                         <li><a href="pages/account/add.html"><i class="fa fa-circle-o"></i>权限管理</a></li>
                         <li><a href="../../pages/systemmanage/rolerightsmanagement.html"><i class="fa fa-circle-o"></i>角色权限管理</a></li>
                         <li><a href="../../pages/systemmanage/rolemanagement.html"><i class="fa fa-circle-o"></i>角色管理</a></li>
-                        <li><a href="pages/account/manage.html"><i class="fa fa-circle-o"></i>用户管理</a></li>
+                        <li><a href="../../pages/systemmanage/usermanagement.html"><i class="fa fa-circle-o"></i>用户管理</a></li>
                     </ul>
                 </li>
                 <li class="treeview">
@@ -193,8 +193,8 @@
                 角色管理
             </h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i>角色基本信息</a></li>
-                <li class="active">列表</li>
+                <li><a href="#"><i class="fa fa-dashboard"></i>系统管理</a></li>
+                <li class="active">角色管理</li>
             </ol>
         </section>
 
@@ -438,49 +438,6 @@
     $(function () {
         $("#example1").DataTable();
         $('#reservation1').daterangepicker();
-    });
-
-    $(function () {
-
-        //Enable iCheck plugin for checkboxes
-        //iCheck for checkbox and radio inputs
-        $('.mailbox-messages input[type="checkbox"]').iCheck({
-            checkboxClass: 'icheckbox_flat-blue',
-            radioClass: 'iradio_flat-blue'
-        });
-
-        //Enable check and uncheck all functionality
-        $('#1').click(function () {
-            var clicks = $(this).data('clicks');
-            if (clicks) {
-                //Uncheck all checkboxes
-                $(".mailbox-messages input[type='checkbox']").iCheck("uncheck");
-                $(".fa", this).removeClass("fa-check-square-o").addClass('fa-square-o');
-            } else {
-                //Check all checkboxes
-                $(".mailbox-messages input[type='checkbox']").iCheck("check");
-                $(".fa", this).removeClass("fa-square-o").addClass('fa-check-square-o');
-            }
-            $(this).data("clicks", !clicks);
-        });
-
-
-        //Enable check and uncheck all functionality
-        $("#2").click(function () {
-            var clicks = $(this).data('clicks');
-            if (clicks) {
-                //Uncheck all checkboxes
-                $(".mailbox-messages input[id^='00']").iCheck("uncheck");
-                $(".fa", this).removeClass("fa-check-square-o").addClass('fa-square-o');
-            } else {
-                //Check all checkboxes
-                $(".mailbox-messages input[id^='00']").iCheck("check");
-                $(".fa", this).removeClass("fa-square-o").addClass('fa-check-square-o');
-            }
-            $(this).data("clicks", !clicks);
-        });
-
-
     });
 
 </script>

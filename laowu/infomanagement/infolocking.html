@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="../../plugins/daterangepicker/daterangepicker-bs3.css">
     <!-- bootstrap datepicker -->
     <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
+    <!-- iCheck for checkboxes and radio inputs -->
+    <link rel="stylesheet" href="../../plugins/iCheck/all.css">
     <!-- Bootstrap Color Picker -->
     <link rel="stylesheet" href="../../plugins/colorpicker/bootstrap-colorpicker.min.css">
     <!-- Bootstrap time Picker -->
@@ -55,8 +57,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-
             </a>
+
 
         </nav>
     </header>
@@ -89,16 +91,16 @@
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="../../laowu/decorationinfo/taskbooktype.html"><i class="fa fa-circle-o"></i>任务书类型</a></li>
-                        <li><a href="../../laowu/decorationinfo/settlementunit.html"><i class="fa fa-circle-o"></i>装饰工程结算单位</a></li>
-                        <li><a href="../../laowu/decorationinfo/projectinfomanagement.html"><i class="fa fa-circle-o"></i>装饰工程对应信息管理</a></li>
-                        <li><a href="../../laowu/decorationinfo/reviewprocess.html"><i class="fa fa-circle-o"></i>审核流程管理</a></li>
-                        <li><a href="../../laowu/decorationinfo/divisionstandard(d).html"><i class="fa fa-circle-o"></i>分部标准（分部）</a></li>
-                        <li><a href="../../laowu/decorationinfo/divisionstandard(p).html"><i class="fa fa-circle-o"></i>分部标准（工程部）</a></li>
-                        <li><a href="../../laowu/decorationinfo/subcriteria.html"><i class="fa fa-circle-o"></i>分项标准（工作项目）</a></li>
-                        <li><a href="../../laowu/decorationinfo/contractpriceimport.html"><i class="fa fa-circle-o"></i>合同单价导入</a></li>
-                        <li><a href="../../laowu/decorationinfo/contractpriceview.html"><i class="fa fa-circle-o"></i>合同单价查看</a></li>
-                        <li><a href="../../laowu/decorationinfo/contractpricemanage.html"><i class="fa fa-circle-o"></i>合同单价管理</a></li>
+                        <li><a href="pages/record/income.html"><i class="fa fa-circle-o"></i>任务书类型</a></li>
+                        <li><a href="pages/record/expenditure.html"><i class="fa fa-circle-o"></i>装饰工程结算单位</a></li>
+                        <li><a href="pages/record/repayment.html"><i class="fa fa-circle-o"></i>装饰工程对应信息管理</a></li>
+                        <li><a href="pages/record/transfer.html"><i class="fa fa-circle-o"></i>审核流程管理</a></li>
+                        <li><a href="pages/record/transfer.html"><i class="fa fa-circle-o"></i>分部标准（分部）</a></li>
+                        <li><a href="pages/record/transfer.html"><i class="fa fa-circle-o"></i>分部标准（工程部）</a></li>
+                        <li><a href="pages/record/transfer.html"><i class="fa fa-circle-o"></i>分项标准（工作项目）</a></li>
+                        <li><a href="pages/record/transfer.html"><i class="fa fa-circle-o"></i>合同单价导入</a></li>
+                        <li><a href="pages/record/transfer.html"><i class="fa fa-circle-o"></i>合同单价查看</a></li>
+                        <li><a href="pages/record/transfer.html"><i class="fa fa-circle-o"></i>合同单价管理</a></li>
                     </ul>
                 </li>
 
@@ -190,11 +192,11 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                分部标准（分部）
+                装饰工程信息锁定
             </h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i>装饰基础信息管理</a></li>
-                <li class="active">分部标准（分部）</li>
+                <li><a href="#"><i class="fa fa-dashboard"></i>个人信息管理</a></li>
+                <li class="active">装饰工程信息锁定</li>
             </ol>
         </section>
 
@@ -204,54 +206,62 @@
                 <div class="col-xs-12">
                     <div class="box">
                         <div class="box-header">
-                            <h3 class="box-title">分布基本信息列表</h3>
+                            <h3 class="box-title">锁定信息</h3>
                         </div>
 
+
                         <!-- /.box-header table-responsive mailbox-messages -->
-                        <div class="box-body">
+                        <div class="table-responsive mailbox-messages">
                             <table id="example1" class="table table-bordered table-striped">
                                 <thead>
                                 <tr>
-                                    <th>分部编号</th>
-                                    <th>分部名</th>
+                                    <th>工程名称</th>
+                                    <th>栋号</th>
+                                    <th>所属部门</th>
+                                    <th>结算单位</th>
                                     <th>操作</th>
-                                    <th>    </th>
+                                    <th>  </th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td>0001</td>
-                                    <td>基础土石方</td>
+                                    <td>香山别墅二期</td>
+                                    <td>环境邻舍其他</td>
+                                    <td>cs土建</td>
+                                    <td>报销已付材料平工</td>
+                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
+                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
+                                </tr>
+
+                                <tr>
+                                    <td>香山别墅二期</td>
+                                    <td>环境邻舍其他</td>
+                                    <td>cs土建</td>
+                                    <td>报销已付材料平工</td>
                                     <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
                                     <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
                                 </tr>
                                 <tr>
-                                    <td>0001</td>
-                                    <td>基础土石方</td>
+                                    <td>香山别墅二期</td>
+                                    <td>环境邻舍其他</td>
+                                    <td>cs土建</td>
+                                    <td>报销已付材料平工</td>
                                     <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
                                     <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
                                 </tr>
                                 <tr>
-                                    <td>0001</td>
-                                    <td>基础土石方</td>
+                                    <td>香山别墅二期</td>
+                                    <td>环境邻舍其他</td>
+                                    <td>cs土建</td>
+                                    <td>报销已付材料平工</td>
                                     <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
                                     <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
                                 </tr>
                                 <tr>
-                                    <td>0001</td>
-                                    <td>基础土石方</td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
-                                </tr>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>基础土石方</td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
-                                </tr>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>基础土石方</td>
+                                    <td>香山别墅二期</td>
+                                    <td>环境邻舍其他</td>
+                                    <td>cs土建</td>
+                                    <td>报销已付材料平工</td>
                                     <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
                                     <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
                                 </tr>
@@ -271,8 +281,7 @@
                 </div>
                 <!-- /.col -->
             </div>
-
-
+            <!-- /.row -->
 
             <div id="add" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
@@ -281,7 +290,7 @@
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
                             <h4 class="modal-title">
                                 <i class="icon-pencil"></i>
-                                <span id="AddTitle" style="font-weight:bold">添加分布标准信息</span>
+                                <span id="AddTitle" style="font-weight:bold">添加工程信息锁定</span>
                             </h4>
                         </div>
 
@@ -289,12 +298,30 @@
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label class="control-label col-md-2">分部名称</label>
-                                            <div class="col-md-10">
-                                                <input id="divisionname" name="divisionname" type="text" class="form-control" placeholder="分部名称..." />
+                                        <table id="table" class="table table-bordered table-striped">
+                                            <thead>
+                                            <div class="form-group">
+                                                <label class="control-label col-md-2">工程名称</label>
+                                                <div class="col-md-10">
+                                                    <input id="projectname" name="projectname" type="text" class="form-control" placeholder="请输入工程名称..." />
+                                                </div>
                                             </div>
-                                        </div>
+                                            <tr>
+                                                <th>请选择栋号</th>
+                                                <th>请选择所属部门</th>
+                                                <th>请选择结算单位</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+
+                                                <td><label><input type="checkbox" class="minimal">e8</label></td>
+                                                <td><label><input type="checkbox" class="minimal">cs</label></td>
+                                                <td><label><input type="checkbox" class="minimal">报销已付</label></td>
+                                            </tr>
+
+                                        </table>
+
                                     </div>
                                 </div>
                             </div>
@@ -307,7 +334,9 @@
                     </div>
                 </div>
             </div>
-            <!-- /.row -->
+
+
+
         </section>
         <!-- /.content -->
 
@@ -378,9 +407,6 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
 <script src="../../plugins/daterangepicker/daterangepicker.js"></script>
-
-<script type="text/javascript" src="../../dist/js/bootstrapValidator.js"></script>
-<script type="text/javascript" src="../../dist/js/jquery-confirm.min.js"></script>
 <!-- page script -->
 <script>
     $(function () {
@@ -388,34 +414,55 @@
         $('#reservation1').daterangepicker();
     });
 
-    $(document).ready(function() {
-        $('#addfrom')
-            .bootstrapValidator({
-                message: 'This value is not valid',
-                feedbackIcons: {
-                    valid: 'glyphicon glyphicon-ok',
-                    invalid: 'glyphicon glyphicon-remove',
-                    validating: 'glyphicon glyphicon-refresh'
-                },
-                fields: {
-                    'divisionname': {
-                        validators: {
-                            notEmpty: {
-                                message: '不能为空'
-
-                            },
-                            stringLength: {
-                                min: 1,
-                                max: 10,
-                                message: '不超过十个字符'
-                            }
-                        }
-                    }
-                }
-            });
+    //iCheck for checkbox and radio inputs
+    $('input[type="checkbox"].minimal, input[type="radio"].minimal').iCheck({
+        checkboxClass: 'icheckbox_minimal-blue',
+        radioClass: 'iradio_minimal-blue'
     });
 
 
+    $(function () {
+
+        //Enable iCheck plugin for checkboxes
+        //iCheck for checkbox and radio inputs
+        $('.mailbox-messages input[type="checkbox"]').iCheck({
+            checkboxClass: 'icheckbox_flat-blue',
+            radioClass: 'iradio_flat-blue'
+        });
+
+        //Enable check and uncheck all functionality
+        $('#1').click(function () {
+            var clicks = $(this).data('clicks');
+            if (clicks) {
+                //Uncheck all checkboxes
+                $(".mailbox-messages input[type='checkbox']").iCheck("uncheck");
+                $(".fa", this).removeClass("fa-check-square-o").addClass('fa-square-o');
+            } else {
+                //Check all checkboxes
+                $(".mailbox-messages input[type='checkbox']").iCheck("check");
+                $(".fa", this).removeClass("fa-square-o").addClass('fa-check-square-o');
+            }
+            $(this).data("clicks", !clicks);
+        });
+
+
+        //Enable check and uncheck all functionality
+        $("#2").click(function () {
+            var clicks = $(this).data('clicks');
+            if (clicks) {
+                //Uncheck all checkboxes
+                $(".mailbox-messages input[id^='00']").iCheck("uncheck");
+                $(".fa", this).removeClass("fa-check-square-o").addClass('fa-square-o');
+            } else {
+                //Check all checkboxes
+                $(".mailbox-messages input[id^='00']").iCheck("check");
+                $(".fa", this).removeClass("fa-square-o").addClass('fa-check-square-o');
+            }
+            $(this).data("clicks", !clicks);
+        });
+
+
+    });
 
 </script>
 </body>

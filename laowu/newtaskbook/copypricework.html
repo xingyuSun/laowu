@@ -189,11 +189,11 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                装饰工程对应信息管理
+                复制装饰计件任务书
             </h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i>装饰基础信息管理</a></li>
-                <li class="active">装饰工程对应信息管理</li>
+                <li><a href="#"><i class="fa fa-dashboard"></i>新建装饰任务书</a></li>
+                <li class="active">复制装饰计件任务书</li>
             </ol>
         </section>
 
@@ -203,118 +203,138 @@
                 <div class="col-xs-12">
                     <div class="box">
                         <div class="box-header">
-                            <h3 class="box-title">工程基本信息列表</h3>
+                            <h3 class="box-title">复制装饰计件任务书</h3>
                         </div>
                         <div class="row">
-                            <div class="margin">
-                                <div class="col-md-4">
-                                    <!-- Date range -->
-                                    <div class="form-group">
-                                        <label>Date range:</label>
+                            <div class="col-sm-4 col-md-1">
+                                <h5 class="text-center">工程名称</h5>
+                            </div>
+                            <div class="col-sm-4 col-md-2">
+                                <select class="form-control select2" style="width: 100%;">
+                                    <option selected="selected">包干价报告补贴等</option>
+                                    <option>项目经理</option>
+                                    <option>信用卡</option>
+                                    <option>电子账户</option>
+                                    <option>投资账户</option>
+                                    <option>其他</option>
+                                </select>
+                            </div>
 
-                                        <div class="input-group">
-                                            <div class="input-group-addon">
-                                                <i class="fa fa-calendar"></i>
-                                            </div>
-                                            <input type="text" class="form-control pull-right" id="reservation1">
-                                        </div>
-                                        <!-- /.input group -->
-                                    </div>
-                                    <!-- /.form group -->
-                                </div>
+                            <div class="col-sm-4 col-md-1">
+                                <h5 class="text-center">所属部门</h5>
+                            </div>
+                            <div class="col-sm-4 col-md-2">
+                                <select class="form-control select2" style="width: 100%;">
+                                    <option selected="selected">包干价报告补贴等</option>
+                                    <option>项目经理</option>
+                                    <option>信用卡</option>
+                                    <option>电子账户</option>
+                                    <option>投资账户</option>
+                                    <option>其他</option>
+                                </select>
+                            </div>
+
+                            <div class="col-sm-4 col-md-1">
+                                <h5 class="text-center">栋号</h5>
+                            </div>
+                            <div class="col-sm-4 col-md-2">
+                                <select class="form-control select2" style="width: 100%;">
+                                    <option selected="selected">包干价报告补贴等</option>
+                                    <option>项目经理</option>
+                                    <option>信用卡</option>
+                                    <option>电子账户</option>
+                                    <option>投资账户</option>
+                                    <option>其他</option>
+                                </select>
+                            </div>
+
+                            <div class="col-sm-4 col-md-1">
+                                <h5 class="text-center">结算单位</h5>
+                            </div>
+                            <div class="col-sm-4 col-md-2">
+                                <select class="form-control select2" style="width: 100%;">
+                                    <option selected="selected">包干价报告补贴等</option>
+                                    <option>项目经理</option>
+                                    <option>信用卡</option>
+                                    <option>电子账户</option>
+                                    <option>投资账户</option>
+                                    <option>其他</option>
+                                </select>
                             </div>
                         </div>
+
+                        <div class="row">
+                            <div class="col-sm-4 col-md-2">
+                                <h5 class="text-center">工作时间范围</h5>
+                            </div>
+                            <div class="col-sm-4 col-md-3">
+
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon">
+                                            <i class="fa fa-calendar"></i>
+                                        </div>
+                                        <input type="text" class="form-control pull-right" id="reservation">
+                                    </div>
+                                    <!-- /.input group -->
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 col-md-1">
+                            </div>
+
+                            <div class="col-sm-4 col-md-2">
+                                <h5 class="text-center">新旧合同</h5>
+                            </div>
+                            <div class="col-sm-4 col-md-3">
+                                <select class="form-control select2" style="width: 100%;">
+                                    <option selected="selected">新合同</option>
+                                    <option>旧合同</option>
+                                </select>
+                            </div>
+
+                            <div class="col-sm-4 col-md-1">
+                            </div>
+                        </div>
+
+
+
                         <!-- /.box-header table-responsive mailbox-messages -->
                         <div class="box-body">
                             <table id="example1" class="table table-bordered table-striped">
                                 <thead>
                                 <tr>
-                                    <th>工程编号</th>
-                                    <th>工程名称</th>
-                                    <th>项目经理</th>
-                                    <th>审计人员</th>
-                                    <th>成控部经理</th>
-                                    <th>开始时间</th>
-                                    <th>  </th>
-                                    <th>操作</th>
-                                    <th>  </th>
+                                    <th>序号</th>
+                                    <th>分部</th>
+                                    <th>工程部位</th>
+                                    <th>工作项目</th>
+                                    <th>具体部位</th>
+                                    <th>单位</th>
+                                    <th>单价</th>
+                                    <th>本月实际完成工作量</th>
+                                    <th>工资金额</th>
+                                    <th>已累计工程量</th>
+                                    <th>备注</th>
+                                    <th><button type="button" class="btn btn-block btn-info" data-toggle="modal" data-target="#add"  style="width: 60px">添加</button></th>
+
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td>0001</td>
-                                    <td>香山别墅二期</td>
-                                    <td>夏真兵</td>
-                                    <td>周孟起</td>
-                                    <td>温平静</td>
-                                    <td>2009-09-03</td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">详细</button></td>
-                                </tr>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>香山别墅二期</td>
-                                    <td>夏真兵</td>
-                                    <td>周孟起</td>
-                                    <td>温平静</td>
-                                    <td>2009-09-03</td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">详细</button></td>
-                                </tr>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>香山别墅二期</td>
-                                    <td>夏真兵</td>
-                                    <td>周孟起</td>
-                                    <td>温平静</td>
-                                    <td>2009-09-03</td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">详细</button></td>
-                                </tr>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>香山别墅二期</td>
-                                    <td>夏真兵</td>
-                                    <td>周孟起</td>
-                                    <td>温平静</td>
-                                    <td>2009-09-03</td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">详细</button></td>
-                                </tr>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>香山别墅二期</td>
-                                    <td>夏真兵</td>
-                                    <td>周孟起</td>
-                                    <td>温平静</td>
-                                    <td>2009-09-03</td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">详细</button></td>
-                                </tr>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>香山别墅二期</td>
-                                    <td>夏真兵</td>
-                                    <td>周孟起</td>
-                                    <td>温平静</td>
-                                    <td>2009-09-03</td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">详细</button></td>
+                                    <td> </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
 
-                                <tfoot>
-                                <tr>
-                                    <th>  </th>
-                                    <th>  </th>
-                                    <th> <button type="button" class="btn btn-block btn-info" data-toggle="modal" data-target="#add"  style="width: 60px">添加</button> </th>
-                                </tr>
-                                </tfoot>
                             </table>
                         </div>
                         <!-- /.box-body -->
@@ -333,7 +353,7 @@
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
                             <h4 class="modal-title">
                                 <i class="icon-pencil"></i>
-                                <span id="lblAddOneTitle" style="font-weight:bold">添加任装饰人员对应工程信息</span>
+                                <span id="AddTitle" style="font-weight:bold">新建装饰计件任务书</span>
                             </h4>
                         </div>
 
@@ -342,62 +362,128 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <label class="control-label col-md-2">工程名称</label>
-                                            <div class="col-md-10">
-                                                <input id="projectname" name="projectname" type="text" class="form-control" placeholder="任务书名称..." />
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-2">项目经理</label>
-                                            <div class="col-md-10">
-                                                <select class="form-control select2" style="width: 100%;">
-                                                    <option selected="selected">现金账户</option>
-                                                    <option>银行卡/存折</option>
-                                                    <option>信用卡</option>
-                                                    <option>电子账户</option>
-                                                    <option>投资账户</option>
-                                                    <option>其他</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-2">审计人员</label>
-                                            <div class="col-md-10">
-                                                <select class="form-control select2" style="width: 100%;">
-                                                    <option selected="selected">现金账户</option>
-                                                    <option>银行卡/存折</option>
-                                                    <option>信用卡</option>
-                                                    <option>电子账户</option>
-                                                    <option>投资账户</option>
-                                                    <option>其他</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-2">成控部经理</label>
-                                            <div class="col-md-10">
-                                                <select class="form-control select2" style="width: 100%;">
-                                                    <option selected="selected">现金账户</option>
-                                                    <option>银行卡/存折</option>
-                                                    <option>信用卡</option>
-                                                    <option>电子账户</option>
-                                                    <option>投资账户</option>
-                                                    <option>其他</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-2">开始时间</label>
-                                            <div class="col-md-10">
-                                                <div class="input-group date">
-                                                    <div class="input-group-addon">
-                                                        <i class="fa fa-calendar"></i>
-                                                    </div>
-                                                    <input type="text" class="form-control pull-right" id="datepicker">
+                                            <div class="row">
+                                                <div class="col-sm-4 col-md-1">
+                                                    <h5 class="text-center">工程名称</h5>
+                                                </div>
+                                                <div class="col-sm-4 col-md-2">
+                                                    <input id="projectname" name="projectname" type="text" class="form-control" placeholder="工作项目名称..." />
+                                                </div>
+
+                                                <div class="col-sm-4 col-md-1">
+                                                    <h5 class="text-center">所属部门</h5>
+                                                </div>
+                                                <div class="col-sm-4 col-md-2">
+                                                    <input id="department" name="department" type="text" class="form-control" placeholder="工作项目名称..." />
+                                                </div>
+
+                                                <div class="col-sm-4 col-md-1">
+                                                    <h5 class="text-center">栋号</h5>
+                                                </div>
+                                                <div class="col-sm-4 col-md-2">
+                                                    <input id="buildingsunm" name="buildingsunm" type="text" class="form-control" placeholder="工作项目名称..." />
+
+                                                </div>
+
+                                                <div class="col-sm-4 col-md-1">
+                                                    <h5 class="text-center">结算单位</h5>
+                                                </div>
+                                                <div class="col-sm-4 col-md-2">
+                                                    <input id="settlementunit" name="settlementunit" type="text" class="form-control" placeholder="工作项目名称..." />
                                                 </div>
                                             </div>
                                         </div>
 
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">分部</label>
+                                            <div class="col-md-10">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">基础土方石</option>
+                                                    <option>项目经理</option>
+                                                    <option>信用卡</option>
+                                                    <option>电子账户</option>
+                                                    <option>投资账户</option>
+                                                    <option>其他</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">工程部位</label>
+                                            <div class="col-md-10">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">桩基</option>
+                                                    <option>项目经理</option>
+                                                    <option>信用卡</option>
+                                                    <option>电子账户</option>
+                                                    <option>投资账户</option>
+                                                    <option>其他</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">工作项目</label>
+                                            <div class="col-md-10">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">桩基泥岩。强风化。。。。。</option>
+                                                    <option>项目经理</option>
+                                                    <option>信用卡</option>
+                                                    <option>电子账户</option>
+                                                    <option>投资账户</option>
+                                                    <option>其他</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">单位</label>
+                                            <div class="col-md-10">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">m3</option>
+                                                    <option>项目经理</option>
+                                                    <option>信用卡</option>
+                                                    <option>电子账户</option>
+                                                    <option>投资账户</option>
+                                                    <option>其他</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">单价</label>
+                                            <div class="col-md-10">
+                                                <input id="price" name="price" type="text" class="form-control" placeholder="工作项目名称..." />
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">本月实际完成工作量</label>
+                                            <div class="col-md-10">
+                                                <input id="monthcomplete" name="monthcomplete" type="text" class="form-control" placeholder="工作项目名称..." />
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">已累计工程量</label>
+                                            <div class="col-md-10">
+                                                <input id="allcomplete" name="allcomplete" type="text" class="form-control" placeholder="工作项目名称..." />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">具体部位</label>
+                                            <div class="col-md-10">
+                                                <textarea id="specificparts" name="specificparts" class="form-control"  rows="8" placeholder="Enter ..."></textarea>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">备注</label>
+                                            <div class="col-md-10">
+                                                <textarea id="remarks" name="remarks" class="form-control"  rows="8" placeholder="Enter ..."></textarea>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -462,6 +548,10 @@
 <script src="../../plugins/select2/select2.full.min.js"></script>
 <!-- iCheck -->
 <script src="../../plugins/iCheck/icheck.min.js"></script>
+<!-- InputMask -->
+<script src="../../plugins/input-mask/jquery.inputmask.js"></script>
+<script src="../../plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
+<script src="../../plugins/input-mask/jquery.inputmask.extensions.js"></script>
 <!-- DataTables -->
 <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
@@ -469,7 +559,6 @@
 <!-- date-range-picker -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
 <script src="../../plugins/daterangepicker/daterangepicker.js"></script>
-
 <!-- bootstrap datepicker -->
 <script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
 <!-- SlimScroll 1.3.0 -->
@@ -481,7 +570,6 @@
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
 
-
 <script type="text/javascript" src="../../dist/js/bootstrapValidator.js"></script>
 <script type="text/javascript" src="../../dist/js/jquery-confirm.min.js"></script>
 <!-- page script -->
@@ -491,12 +579,52 @@
         $('#reservation1').daterangepicker();
     });
 
+
+    $(".select2").select2();
+
+    //Datemask dd/mm/yyyy
+    $("#datemask").inputmask("dd/mm/yyyy", {"placeholder": "dd/mm/yyyy"});
+    //Datemask2 mm/dd/yyyy
+    $("#datemask2").inputmask("mm/dd/yyyy", {"placeholder": "mm/dd/yyyy"});
+    //Money Euro
+    $("[data-mask]").inputmask();
+
+    //Date range picker
+    $('#reservation').daterangepicker();
+    //Date range picker with time picker
+    $('#reservationtime').daterangepicker({timePicker: true, timePickerIncrement: 30, format: 'MM/DD/YYYY h:mm A'});
+    //Date range as a button
+    $('#daterange-btn').daterangepicker(
+        {
+            ranges: {
+                'Today': [moment(), moment()],
+                'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+                'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+                'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+                'This Month': [moment().startOf('month'), moment().endOf('month')],
+                'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+            },
+            startDate: moment().subtract(29, 'days'),
+            endDate: moment()
+        },
+        function (start, end) {
+            $('#daterange-btn span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+        }
+    );
+
     //Date picker
     $('#datepicker').datepicker({
         autoclose: true
     });
+    //Colorpicker
+    $(".my-colorpicker1").colorpicker();
+    //color picker with addon
+    $(".my-colorpicker2").colorpicker();
 
-
+    //Timepicker
+    $(".timepicker").timepicker({
+        showInputs: false
+    });
 
     $(document).ready(function() {
         $('#addfrom')
@@ -512,17 +640,30 @@
                         validators: {
                             notEmpty: {
                                 message: '不能为空'
+
                             },
                             stringLength: {
                                 min: 1,
-                                max: 10,
-                                message: '不超过十个字符'
+                                max: 50,
+                                message: '不超过50个字符'
+                            }
+                        }
+                    },
+                    'remarks': {
+                        validators: {
+                            stringLength: {
+                                min: 0,
+                                max: 250,
+                                message: '不能超过250字符'
                             }
                         }
                     }
                 }
             });
     });
+
+
+
 </script>
 </body>
 </html>

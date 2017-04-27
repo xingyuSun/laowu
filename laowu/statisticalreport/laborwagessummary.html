@@ -75,7 +75,7 @@
                         <i class="fa  fa-paypal"></i> <span>系统管理</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i>权限组管理</a></li>
+                        <li><a href="index.html"><i class="fa fa-circle-o"></i>权限组管理</a></li>
                         <li><a href="pages/account/add.html"><i class="fa fa-circle-o"></i>权限管理</a></li>
                         <li><a href="../../pages/systemmanage/rolerightsmanagement.html"><i class="fa fa-circle-o"></i>角色权限管理</a></li>
                         <li><a href="../../pages/systemmanage/rolemanagement.html"><i class="fa fa-circle-o"></i>角色管理</a></li>
@@ -189,11 +189,11 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                装饰工程对应信息管理
+                劳务工资支付情况汇总
             </h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i>装饰基础信息管理</a></li>
-                <li class="active">装饰工程对应信息管理</li>
+                <li><a href="#"><i class="fa fa-dashboard"></i>装饰统计报表</a></li>
+                <li class="active">劳务工资支付情况汇总</li>
             </ol>
         </section>
 
@@ -203,118 +203,75 @@
                 <div class="col-xs-12">
                     <div class="box">
                         <div class="box-header">
-                            <h3 class="box-title">工程基本信息列表</h3>
+                            <h3 class="box-title">劳务工资支付情况汇总</h3>
                         </div>
-                        <div class="row">
-                            <div class="margin">
-                                <div class="col-md-4">
-                                    <!-- Date range -->
-                                    <div class="form-group">
-                                        <label>Date range:</label>
 
-                                        <div class="input-group">
-                                            <div class="input-group-addon">
-                                                <i class="fa fa-calendar"></i>
-                                            </div>
-                                            <input type="text" class="form-control pull-right" id="reservation1">
-                                        </div>
-                                        <!-- /.input group -->
-                                    </div>
-                                    <!-- /.form group -->
-                                </div>
-                            </div>
-                        </div>
+
                         <!-- /.box-header table-responsive mailbox-messages -->
                         <div class="box-body">
                             <table id="example1" class="table table-bordered table-striped">
                                 <thead>
                                 <tr>
-                                    <th>工程编号</th>
+
+                                    <th>所属部门</th>
+                                    <th>结算时段</th>
+                                    <th>审核状态</th>
+                                    <th>报表日期</th>
+                                    <th>报表编号</th>
+                                    <th>序号</th>
                                     <th>工程名称</th>
-                                    <th>项目经理</th>
-                                    <th>审计人员</th>
-                                    <th>成控部经理</th>
-                                    <th>开始时间</th>
-                                    <th>  </th>
-                                    <th>操作</th>
-                                    <th>  </th>
+                                    <th>结算单位</th>
+                                    <th>上期累计结算金额</th>
+                                    <th>上期应付余额</th>
+                                    <th>本期结算金额</th>
+                                    <th>累计结算金额</th>
+                                    <th>罚款</th>
+                                    <th>材料</th>
+                                    <th>其他</th>
+                                    <th>财务借支</th>
+                                    <th>本期应付金额</th>
+                                    <th>现金</th>
+                                    <th>借支</th>
+                                    <th>保证金</th>
+                                    <th>拟钱付金额</th>
+                                    <th>备注</th>
+                                    <th>董事长</th>
+                                    <th>总经理</th>
+                                    <th>安装公司经理</th>
+                                    <th>审计</th>
+                                    <th>财务</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td>0001</td>
-                                    <td>香山别墅二期</td>
-                                    <td>夏真兵</td>
-                                    <td>周孟起</td>
-                                    <td>温平静</td>
-                                    <td>2009-09-03</td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">详细</button></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>香山别墅二期</td>
-                                    <td>夏真兵</td>
-                                    <td>周孟起</td>
-                                    <td>温平静</td>
-                                    <td>2009-09-03</td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">详细</button></td>
-                                </tr>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>香山别墅二期</td>
-                                    <td>夏真兵</td>
-                                    <td>周孟起</td>
-                                    <td>温平静</td>
-                                    <td>2009-09-03</td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">详细</button></td>
-                                </tr>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>香山别墅二期</td>
-                                    <td>夏真兵</td>
-                                    <td>周孟起</td>
-                                    <td>温平静</td>
-                                    <td>2009-09-03</td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">详细</button></td>
-                                </tr>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>香山别墅二期</td>
-                                    <td>夏真兵</td>
-                                    <td>周孟起</td>
-                                    <td>温平静</td>
-                                    <td>2009-09-03</td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">详细</button></td>
-                                </tr>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>香山别墅二期</td>
-                                    <td>夏真兵</td>
-                                    <td>周孟起</td>
-                                    <td>温平静</td>
-                                    <td>2009-09-03</td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">修改</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">删除</button></td>
-                                    <td><button type="button" class="btn btn-block btn-info"  style="width: 60px">详细</button></td>
-                                </tr>
-
-                                <tfoot>
-                                <tr>
-                                    <th>  </th>
-                                    <th>  </th>
-                                    <th> <button type="button" class="btn btn-block btn-info" data-toggle="modal" data-target="#add"  style="width: 60px">添加</button> </th>
-                                </tr>
-                                </tfoot>
                             </table>
                         </div>
                         <!-- /.box-body -->
@@ -324,92 +281,6 @@
                 <!-- /.col -->
             </div>
 
-
-
-            <div id="add" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header bg-primary">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                            <h4 class="modal-title">
-                                <i class="icon-pencil"></i>
-                                <span id="lblAddOneTitle" style="font-weight:bold">添加任装饰人员对应工程信息</span>
-                            </h4>
-                        </div>
-
-                        <form class="form-horizontal form-bordered form-row-strippe" id="addfrom" action="" data-toggle="validator" enctype="multipart/form-data">
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label class="control-label col-md-2">工程名称</label>
-                                            <div class="col-md-10">
-                                                <input id="projectname" name="projectname" type="text" class="form-control" placeholder="任务书名称..." />
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-2">项目经理</label>
-                                            <div class="col-md-10">
-                                                <select class="form-control select2" style="width: 100%;">
-                                                    <option selected="selected">现金账户</option>
-                                                    <option>银行卡/存折</option>
-                                                    <option>信用卡</option>
-                                                    <option>电子账户</option>
-                                                    <option>投资账户</option>
-                                                    <option>其他</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-2">审计人员</label>
-                                            <div class="col-md-10">
-                                                <select class="form-control select2" style="width: 100%;">
-                                                    <option selected="selected">现金账户</option>
-                                                    <option>银行卡/存折</option>
-                                                    <option>信用卡</option>
-                                                    <option>电子账户</option>
-                                                    <option>投资账户</option>
-                                                    <option>其他</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-2">成控部经理</label>
-                                            <div class="col-md-10">
-                                                <select class="form-control select2" style="width: 100%;">
-                                                    <option selected="selected">现金账户</option>
-                                                    <option>银行卡/存折</option>
-                                                    <option>信用卡</option>
-                                                    <option>电子账户</option>
-                                                    <option>投资账户</option>
-                                                    <option>其他</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-2">开始时间</label>
-                                            <div class="col-md-10">
-                                                <div class="input-group date">
-                                                    <div class="input-group-addon">
-                                                        <i class="fa fa-calendar"></i>
-                                                    </div>
-                                                    <input type="text" class="form-control pull-right" id="datepicker">
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                                <button type="submit" class="btn btn-primary">确认</button>
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
-            </div>
             <!-- /.row -->
         </section>
         <!-- /.content -->
@@ -470,8 +341,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
 <script src="../../plugins/daterangepicker/daterangepicker.js"></script>
 
-<!-- bootstrap datepicker -->
-<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
 <!-- SlimScroll 1.3.0 -->
 <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
@@ -481,9 +350,9 @@
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+<script src="../../plugins/daterangepicker/daterangepicker.js"></script>
 
-<script type="text/javascript" src="../../dist/js/bootstrapValidator.js"></script>
-<script type="text/javascript" src="../../dist/js/jquery-confirm.min.js"></script>
 <!-- page script -->
 <script>
     $(function () {
@@ -491,38 +360,8 @@
         $('#reservation1').daterangepicker();
     });
 
-    //Date picker
-    $('#datepicker').datepicker({
-        autoclose: true
-    });
 
-
-
-    $(document).ready(function() {
-        $('#addfrom')
-            .bootstrapValidator({
-                message: 'This value is not valid',
-                feedbackIcons: {
-                    valid: 'glyphicon glyphicon-ok',
-                    invalid: 'glyphicon glyphicon-remove',
-                    validating: 'glyphicon glyphicon-refresh'
-                },
-                fields: {
-                    'projectname': {
-                        validators: {
-                            notEmpty: {
-                                message: '不能为空'
-                            },
-                            stringLength: {
-                                min: 1,
-                                max: 10,
-                                message: '不超过十个字符'
-                            }
-                        }
-                    }
-                }
-            });
-    });
 </script>
 </body>
 </html>
+
